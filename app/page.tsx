@@ -218,7 +218,7 @@ export default function EnchantingDateProposalApp() {
         disabled={answers.food.length === 0}
         className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
       >
-        Looks delicious!
+        goated ahh choice!
       </Button>
     </motion.div>,
 
