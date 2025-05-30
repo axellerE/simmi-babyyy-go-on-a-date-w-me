@@ -9,13 +9,6 @@ import { buttonVariants } from "@/components/ui/button"
 
 export type CalendarProps = React.ComponentProps<typeof DayPicker>
 
-{
-  vars: "all",
-  args: "after-used",
-  ignoreRestSiblings: false,
-  caughtErrors: "all",
-}
-
 function Calendar({
   className,
   classNames,
