@@ -73,7 +73,7 @@ export default function EnchantingDateProposalApp() {
     // Step 0: Initial Question
     <motion.div key="step0" className="text-center" {...fadeInUp}>
       <h1 className="text-4xl font-bold mb-6 text-pink-600">
-        Will you go on a date with me?
+        Will you go on a date with me, simmi?
       </h1>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -108,7 +108,7 @@ export default function EnchantingDateProposalApp() {
                 There is no &quot;NOOOOOO&quot;
               </DialogTitle>
               <DialogDescription className="text-lg text-pink-500">
-                You must come with me!
+                were you actually gonna say no?!
               </DialogDescription>
             </DialogHeader>
             <motion.img
@@ -136,7 +136,7 @@ export default function EnchantingDateProposalApp() {
     // Step 1: Date and Time Selection
     <motion.div key="step1" className="text-center" {...fadeInUp}>
       <h2 className="text-3xl font-bold mb-6 text-pink-600">
-        YEYYYYYYYY, WHEN SHALL WE GO?
+        YAYAYAYAY, WHEN SHALL WE GO?
       </h2>
       <motion.img
         initial={{ opacity: 0, scale: 0.8 }}
@@ -186,11 +186,11 @@ export default function EnchantingDateProposalApp() {
       </h2>
       <div className="grid grid-cols-2 gap-6 mb-6">
         {[
-          { name: "Lasagna", icon: <Utensils /> },
-          { name: "Chicken Pie", icon: <Utensils /> },
-          { name: "Chicken Shawarma", icon: <Utensils /> },
+          { name: "burger", icon: <Utensils /> },
+          { name: "pizza", icon: <Utensils /> },
+          { name: "tacos", icon: <Utensils /> },
           { name: "Snack Platter", icon: <Coffee /> },
-          { name: "Mix rice", icon: <Utensils /> },
+          { name: "you choose", icon: <Utensils /> },
         ].map(({ name, icon }) => (
           <motion.button
             key={name}
@@ -232,11 +232,11 @@ export default function EnchantingDateProposalApp() {
           "The Notebook",
           "La La Land",
           "Titanic",
-          "Pride and Prejudice",
-          "Anyone But You",
-          "Past Lives",
-          "Love at First Sight",
-          "Through My Window 3",
+          "How to lose a guy in 10 days",
+          "some bollywood comedy",
+          "500 days of summer",
+          "ye jawani hai diwani",
+          "Dead poets society",
           "Something else",
         ].map((movie) => (
           <motion.button
