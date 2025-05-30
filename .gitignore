@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+npm install --save-dev typescript
 
 # testing
 /coverage
